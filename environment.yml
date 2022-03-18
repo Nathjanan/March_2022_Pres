@@ -5,6 +5,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - _libgcc_mutex=0.1=conda_forge
   - anyio=3.5.0=py38h578d9bd_0
   - apbs=1.5=h14c3975_3
   - argon2-cffi=20.1.0=py38h7b6447c_1
@@ -12,32 +13,45 @@ dependencies:
   - attrs=20.2.0=py_0
   - babel=2.9.1=pyh44b312d_0
   - backcall=0.2.0=py_0
+  - binutils=2.33.1=h53a641e_8
+  - binutils_impl_linux-64=2.33.1=he1b5a44_7
+  - binutils_linux-64=2.33.1=h9595d00_17
   - bleach=3.2.1=py_0
   - boost=1.70.0=py38h9de70de_1
   - boost-cpp=1.70.0=ha2d47e9_1
   - brotlipy=0.7.0=py38h8df0ef7_1001
   - bzip2=1.0.8=h516909a_3
   - c-ares=1.18.1=h7f8727e_0
+  - c-compiler=1.1.1=h516909a_0
   - ca-certificates=2021.10.8=ha878542_0
   - cairo=1.16.0=hf32fb01_1
   - certifi=2021.10.8=py38h578d9bd_1
   - cffi=1.14.3=py38he30daa8_0
   - charset-normalizer=2.0.12=pyhd8ed1ab_0
+  - compilers=1.1.1=0
   - cryptography=35.0.0=py38ha5dfef3_0
   - curl=7.80.0=h7f8727e_0
+  - cxx-compiler=1.1.1=hc9558a2_0
   - dbus=1.13.18=hb2f20db_0
   - decorator=4.4.2=py_0
   - defusedxml=0.6.0=py_0
   - entrypoints=0.3=py38_0
   - expat=2.2.10=he6710b0_2
   - fontconfig=2.13.1=h6c09931_0
+  - fortran-compiler=1.1.1=he991be0_0
   - freemol=1.158=py_2
   - freetype=2.10.4=h5ab3b9f_0
+  - gcc_impl_linux-64=7.3.0=hd420e75_5
+  - gcc_linux-64=7.3.0=h553295d_17
+  - gfortran_impl_linux-64=7.3.0=hdf63c60_5
+  - gfortran_linux-64=7.3.0=h553295d_17
   - giflib=5.2.1=h36c2ea0_2
   - glew=2.0.0=0
   - glib=2.69.1=h4ff587b_1
   - gst-plugins-base=1.14.0=h8213a91_2
   - gstreamer=1.14.0=h28cd5cc_2
+  - gxx_impl_linux-64=7.3.0=hdf63c60_5
+  - gxx_linux-64=7.3.0=h553295d_17
   - h5py=2.10.0=nompi_py38hafa665b_105
   - hdf4=4.2.13=h3ca952b_2
   - hdf5=1.10.6=nompi_h7c3c948_1111
@@ -75,6 +89,7 @@ dependencies:
   - libgfortran-ng=7.5.0=h14aa051_20
   - libgfortran4=7.5.0=h14aa051_20
   - libglu=9.0.0=he1b5a44_1001
+  - libgomp=9.2.0=h24d8f2e_2
   - libholoplaycore=0.1.0_rc4=1
   - liblapack=3.9.0=8_openblas
   - libnetcdf=4.8.1=h42ceab0_1
