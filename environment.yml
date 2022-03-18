@@ -180,4 +180,6 @@ dependencies:
     - ruamel-yaml-clib==0.2.6
     - semver==2.13.0
     - toml==0.10.2
+    - voila==0.3.3
+    - websockets==10.2
 prefix: /home/simeons/anaconda3/envs/presentation
