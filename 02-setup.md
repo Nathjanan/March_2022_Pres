@@ -24,12 +24,12 @@ where `verb` is what we actually want to do and `options` is additional optional
 Dracula sets up his new laptop:
 
 ~~~
-$ git config --global user.name "Saw Simeon"
-$ git config --global user.email "saw.simeon@inserm.fr"
+$ git config --global user.name "Vlad Dracula"
+$ git config --global user.email "vlad@tran.sylvan.ia"
 ~~~
 {: .language-bash}
 
-Please use your own name and email address instead of Simeons's. This user name and email will be associated with your subsequent Git activity,
+Please use your own name and email address instead of Dracula's. This user name and email will be associated with your subsequent Git activity,
 which means that any changes pushed to
 [GitHub](https://github.com/),
 [BitBucket](https://bitbucket.org/),
